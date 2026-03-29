@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RiBo Elektro | Villanyszerelés és elektronika</title>
+  <meta name="description" content="RiBo Elektro - villanyszerelési és elektronikai szolgáltatások lakossági és üzleti ügyfeleknek." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/site-data.js"></script>
+  <script defer src="js/render.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="RiBo Elektro kezdőlap">
+        <img src="assets/logo.png" alt="RiBo Elektro logó" class="brand-logo" />
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menü megnyitása" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#szolgaltatasok">Szolgáltatások</a>
+        <a href="#rolunk">Rólunk</a>
+        <a href="#elonyok">Előnyök</a>
+        <a href="#kapcsolat">Kapcsolat</a>
+        <a href="#ajanlat" class="button button-primary nav-cta">Ajánlatkérés</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="badge">⚡ Villanyszerelés és elektronikai megoldások</div>
+          <h1>Megbízható kivitelezés, modern megjelenéssel</h1>
+          <p>
+            Ez már egy valódi <strong>index.html alapú</strong>, GitHub Pages-kompatibilis kezdő honlap.
+            A felépítés moduláris: külön fájlban van a HTML, a stílus, a JavaScript és a tartalmi adatok is.
+          </p>
+          <div class="hero-actions">
+            <a href="#kapcsolat" class="button button-primary">Kapcsolat</a>
+            <a href="#szolgaltatasok" class="button button-secondary">Szolgáltatások</a>
+          </div>
+          <div class="hero-stats" id="heroStats"></div>
+        </div>
+
+        <div class="hero-card">
+          <img src="assets/logo.png" alt="RiBo Elektro logó" class="hero-logo" />
+          <div class="hero-card-list" id="heroHighlights"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="szolgaltatasok">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Mit csináltok</p>
+            <h2>Szolgáltatások</h2>
+          </div>
+          <p>
+            Ezek már adatalapúan töltődnek be, így később könnyű őket bővíteni vagy átírni.
+          </p>
+        </div>
+        <div class="card-grid" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="rolunk">
+      <div class="container about-grid">
+        <div class="panel">
+          <p class="section-kicker">Rólatok</p>
+          <h2>Szakmai, rendezett, bizalomépítő jelenlét</h2>
+          <p>
+            A weboldal vizuálisan a logó színeire épül: erős kék, friss zöld és világos háttér. Ez jó kiindulás
+            villanyszerelő és elektronikai vállalkozáshoz is, mert egyszerre hat modernnek és szakmainak.
+          </p>
+          <ul class="feature-list" id="aboutList"></ul>
+        </div>
+
+        <div class="panel emphasis-panel">
+          <p class="section-kicker">Miért jó ez a szerkezet</p>
+          <h3>GitHub alapú induláshoz ideális</h3>
+          <ul class="feature-list" id="benefitList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="elonyok">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Miért titeket</p>
+            <h2>Előnyök</h2>
+          </div>
+          <p>
+            Itt később jöhetnek referenciaképek, konkrét munkák, partnerlogók vagy ügyfélvélemények is.
+          </p>
+        </div>
+        <div class="card-grid" id="featureCards"></div>
+      </div>
+    </section>
+
+    <section class="section cta-section" id="ajanlat">
+      <div class="container cta-box">
+        <div>
+          <p class="section-kicker section-kicker-light">Következő lépés</p>
+          <h2>Most már csak a saját adataitok kellenek</h2>
+          <p>
+            Telefonszám, e-mail, szolgáltatási terület, és már fel is tehető GitHub Pages-re.
+          </p>
+        </div>
+        <a href="#kapcsolat" class="button button-light">Adatok kitöltése</a>
+      </div>
+    </section>
+
+    <section class="section" id="kapcsolat">
+      <div class="container contact-grid">
+        <div class="panel">
+          <p class="section-kicker">Kapcsolat</p>
+          <h2>Elérhetőségek</h2>
+          <div class="contact-list" id="contactList"></div>
+        </div>
+
+        <div class="panel">
+          <p class="section-kicker">GitHub Pages megjegyzés</p>
+          <h2>Űrlap később</h2>
+          <p>
+            Mivel ez statikus honlap, első körben a telefon + e-mail a legegyszerűbb. Később könnyen hozzáadható
+            Formspree, Basin vagy Netlify Forms alapú kapcsolatfelvételi űrlap is.
+          </p>
+          <ul class="feature-list">
+            <li>Gyors indulás</li>
+            <li>Olcsó fenntartás</li>
+            <li>Egyszerű GitHub frissítés</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="currentYear"></span> RiBo Elektro</p>
+      <p>Moduláris statikus honlap GitHub Pages-hez</p>
+    </div>
+  </footer>
+</body>
+</html>
