@@ -357,8 +357,8 @@ img {
 
 /* Card disabled state */
 .card-disabled {
-  opacity: 0.45;
-  filter: grayscale(0.6);
+  opacity: 0.15;
+  filter: grayscale(1);
   pointer-events: none;
 }
 
