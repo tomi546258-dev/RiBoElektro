@@ -24,49 +24,111 @@ window.siteData = {
       }
     ]
   },
-  services: [
+
+  servicesResidential: [
     {
       icon: '🔌',
-      title: 'Villanyszerelés',
-      text: 'Lakások, házak, kisebb üzleti és műhely környezetek elektromos kivitelezése, javítása és korszerűsítése.'
+      title: 'Villanyszerelés és karbantartás',
+      text: 'Teljes körű villanyszerelés lakásokhoz és házakhoz: hálózat felújítás, bővítés, hibaelhárítás, új áramkörök kiépítése.',
+      items: ['Hálózat felújítás, bővítés', 'Hibaelhárítás', 'Új áramkörök kiépítése']
     },
     {
-      icon: '🛠️',
-      title: 'Hibaelhárítás',
-      text: 'Gyors hibafeltárás, áramköri ellenőrzés, problémás szakaszok javítása és dokumentált munkavégzés.'
+      icon: '⚡',
+      title: 'Elosztó szekrények korszerűsítése',
+      text: 'Lakáselosztó csere, biztosítéktábla modernizálás, FI relé beépítés, terhelés bővítés előkészítése.',
+      items: ['Lakáselosztó csere', 'FI relé beépítés', 'Terhelés bővítés előkészítése']
     },
     {
-      icon: '📟',
-      title: 'Elektronikai munkák',
-      text: 'Elektronikai szerelés, bekötés, kisebb javítások, speciális műszaki feladatok támogatása.'
+      icon: '🔧',
+      title: 'Boiler karbantartás és javítás',
+      text: 'Vízkőmentesítés, fűtőszál csere, hibakeresés és javítás – gyorsan és megbízhatóan.',
+      items: ['Vízkőmentesítés', 'Fűtőszál csere', 'Hibakeresés és javítás']
+    },
+    {
+      icon: '💡',
+      title: 'Energiatakarékosság',
+      text: 'Fogyasztás felmérés, villamos hálózat optimalizálás – hogy kisebb legyen a számla.',
+      items: ['Fogyasztás felmérés', 'Hálózat optimalizálás', 'Nagyfogyasztók hatékonyabbá tétele']
+    },
+    {
+      icon: '📱',
+      title: 'Okos otthon és automatizálás',
+      text: 'Világítás automatizálás, időzített vezérlések, távoli irányítás mobilról – modern, kényelmes otthon.',
+      items: ['Világítás automatizálás', 'Időzített vezérlések', 'Távoli vezérlés mobilról']
+    },
+    {
+      icon: '🛡️',
+      title: 'Biztonságtechnika',
+      text: 'Érintésvédelmi mérések és vizsgálatok, villámvédelmi felülvizsgálat, biztonsági ellenőrzések.',
+      items: ['Érintésvédelmi mérések', 'Villámvédelmi felülvizsgálat', 'Biztonsági ellenőrzések']
     }
   ],
+
+  servicesCorporate: [
+    {
+      icon: '🏭',
+      title: 'Ipari villanyszerelés',
+      text: 'Villamos hálózatok kiépítése, karbantartás, hibaelhárítás és gépek elektromos bekötése ipari és üzleti környezetben.',
+      items: ['Hálózatok kiépítése', 'Karbantartás és hibaelhárítás', 'Gépek elektromos bekötése']
+    },
+    {
+      icon: '📐',
+      title: 'Tervezési támogatás',
+      text: 'Villamos tervező irodák és kivitelezők számára tervezési támogatás elosztóberendezések és nyomvonalak kialakításában.',
+      items: ['Elosztótervek kidolgozása', 'Nyomvonal tervezés', 'Dokumentációkészítés']
+    },
+    {
+      icon: '⚙️',
+      title: 'Elosztó berendezések kivitelezése',
+      text: 'Egyedi elosztóberendezések kivitelezése tapasztalt gyártópartnerek bevonásával, teljes körű műszaki kontroll mellett.',
+      items: ['Egyedi elosztószekrény gyártás', 'Helyszíni telepítés', 'Műszaki egyeztetés']
+    },
+    {
+      icon: '🤖',
+      title: 'Ipari automatizálás és vezérlések',
+      text: 'PLC programozás, gépek és technológiák vezérlése, folyamatoptimalizálás – hatékonyabb ipari működéshez.',
+      items: ['PLC programozás', 'Gépvezérlések', 'Folyamatoptimalizálás']
+    },
+    {
+      icon: '📊',
+      title: 'Energetikai felmérés és optimalizálás',
+      text: 'Energiafelhasználás elemzés, hatékonyságnövelési javaslatok, ipari fogyasztás csökkentése energia monitoring rendszerekkel.',
+      items: ['Energiafelhasználás elemzés', 'Hatékonyságnövelés', 'Ipari fogyasztás csökkentés']
+    },
+    {
+      icon: '🔬',
+      title: 'Speciális elektronikai megoldások',
+      text: 'Kapcsolóüzemű tápegységek javítása, egyedi elektronikai megoldások tervezése és kivitelezése.',
+      items: ['Tápegységek javítása', 'Egyedi elektronikai megoldások', 'Projektszintű támogatás']
+    }
+  ],
+
   aboutItems: [
     'Átlátható kommunikáció és korrekt ajánlatadás.',
     'Megbízható, rendezett és szakmai megjelenés.',
-    'Később könnyen bővíthető referenciákkal és új aloldalakkal.'
+    'Rugalmasan kapcsolódunk meglévő projektekhez, akár részfeladatok átvállalásával is.'
   ],
   benefits: [
-    'Az index.html a fő belépőoldal, amit GitHub Pages rögtön ki tud szolgálni.',
-    'A dizájn külön CSS fájlban van, így könnyű finomhangolni.',
-    'A tartalom külön adatfájlban van, ezért nem kell mindenhez a HTML-ben turkálni.',
-    'A JavaScript külön kezeli a dinamikus részeket és a mobil menüt.'
+    'Rugalmasan kapcsolódunk meglévő projektekhez, akár részfeladatok átvállalásával is.',
+    'Tervező irodák és kivitelezők számára partneri szakmai együttműködést kínálunk.',
+    'Minden munkát dokumentáltan, precízen és határidőre végzünk el.',
+    'Hosszú távú kapcsolatokban gondolkodunk – nem egyszeri megbízásokban.'
   ],
   features: [
     {
       icon: '✅',
-      title: 'Megbízható benyomás',
-      text: 'Az első pillanattól azt kommunikálja, hogy rendezett, igényes vállalkozás vagytok.'
+      title: 'Megbízható kivitelezés',
+      text: 'Minden munkát dokumentáltan, precízen és határidőre végzünk el – lakóktól az ipari partnerekig.'
     },
     {
       icon: '⚙️',
-      title: 'Jól bővíthető',
-      text: 'Később könnyen csinálhatunk külön aloldalt referenciáknak, áraknak vagy kapcsolatnak.'
+      title: 'Rugalmas együttműködés',
+      text: 'Tervező irodák és kivitelezők számára rugalmas szakmai partneri támogatást kínálunk.'
     },
     {
       icon: '📞',
-      title: 'Kapcsolatfókuszú',
-      text: 'A látogató gyorsan eljut a kapcsolatfelvételig, ami induló vállalkozásnál különösen fontos.'
+      title: 'Gyors kapcsolatfelvétel',
+      text: 'A látogató gyorsan eljut a kapcsolatfelvételig – telefonon, e-mailben egyaránt elérhetők vagyunk.'
     }
   ]
 };
