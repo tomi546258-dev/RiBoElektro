@@ -48,29 +48,19 @@ window.siteData = {
       icon: '💡',
       title: 'Energiatakarékosság',
       text: 'Fogyasztás felmérés, villamos hálózat optimalizálás – hogy kisebb legyen a számla.',
-      items: ['Fogyasztás felmérés', 'Hálózat optimalizálás', 'Nagyfogyasztók hatékonyabbá tétele']
+      items: ['Fogyasztás felmérés', 'Hálózat optimalizálás', 'Nagyfogyasztók hatékonyabbá tétele'],
+      disabled: true
     },
     {
       icon: '📱',
       title: 'Okos otthon és automatizálás',
       text: 'Világítás automatizálás, időzített vezérlések, távoli irányítás mobilról – modern, kényelmes otthon.',
-      items: ['Világítás automatizálás', 'Időzített vezérlések', 'Távoli vezérlés mobilról']
-    },
-    {
-      icon: '🛡️',
-      title: 'Biztonságtechnika',
-      text: 'Érintésvédelmi mérések és vizsgálatok, villámvédelmi felülvizsgálat, biztonsági ellenőrzések.',
-      items: ['Érintésvédelmi mérések', 'Villámvédelmi felülvizsgálat', 'Biztonsági ellenőrzések']
+      items: ['Világítás automatizálás', 'Időzített vezérlések', 'Távoli vezérlés mobilról'],
+      disabled: true
     }
   ],
 
   servicesCorporate: [
-    {
-      icon: '🏭',
-      title: 'Ipari villanyszerelés',
-      text: 'Villamos hálózatok kiépítése, karbantartás, hibaelhárítás és gépek elektromos bekötése ipari és üzleti környezetben.',
-      items: ['Hálózatok kiépítése', 'Karbantartás és hibaelhárítás', 'Gépek elektromos bekötése']
-    },
     {
       icon: '📐',
       title: 'Tervezési támogatás',
@@ -79,9 +69,9 @@ window.siteData = {
     },
     {
       icon: '⚙️',
-      title: 'Elosztó berendezések kivitelezése',
-      text: 'Egyedi elosztóberendezések kivitelezése tapasztalt gyártópartnerek bevonásával, teljes körű műszaki kontroll mellett.',
-      items: ['Egyedi elosztószekrény gyártás', 'Helyszíni telepítés', 'Műszaki egyeztetés']
+      title: 'Elosztó gyártás – partneri alapon',
+      text: 'Egyedi elosztók kivitelezése meglévő gyártókapacitás bevonásával, projektalapú együttműködés keretében.',
+      items: ['Egyedi elosztók kivitelezése', 'Meglévő gyártókapacitás bevonása', 'Projektalapú együttműködés']
     },
     {
       icon: '🤖',
@@ -93,13 +83,15 @@ window.siteData = {
       icon: '📊',
       title: 'Energetikai felmérés és optimalizálás',
       text: 'Energiafelhasználás elemzés, hatékonyságnövelési javaslatok, ipari fogyasztás csökkentése energia monitoring rendszerekkel.',
-      items: ['Energiafelhasználás elemzés', 'Hatékonyságnövelés', 'Ipari fogyasztás csökkentés']
+      items: ['Energiafelhasználás elemzés', 'Hatékonyságnövelés', 'Ipari fogyasztás csökkentés'],
+      disabled: true
     },
     {
       icon: '🔬',
       title: 'Speciális elektronikai megoldások',
       text: 'Kapcsolóüzemű tápegységek javítása, egyedi elektronikai megoldások tervezése és kivitelezése.',
-      items: ['Tápegységek javítása', 'Egyedi elektronikai megoldások', 'Projektszintű támogatás']
+      items: ['Tápegységek javítása', 'Egyedi elektronikai megoldások', 'Projektszintű támogatás'],
+      disabled: true
     }
   ],
 

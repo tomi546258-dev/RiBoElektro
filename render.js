@@ -2,10 +2,12 @@ function createCard(item) {
   const itemsList = item.items
     ? `<ul class="card-items">${item.items.map(i => `<li>${i}</li>`).join('')}</ul>`
     : '';
+  const disabledClass = item.disabled ? ' card-disabled' : '';
+  const badge = item.disabled ? `<span class="card-soon">Hamarosan</span>` : '';
   return `
-    <article class="card">
+    <article class="card${disabledClass}">
       <div class="card-icon">${item.icon}</div>
-      <h3>${item.title}</h3>
+      <h3>${item.title} ${badge}</h3>
       <p>${item.text}</p>
       ${itemsList}
     </article>

@@ -355,6 +355,27 @@ img {
   color: var(--blue-900);
 }
 
+/* Card disabled state */
+.card-disabled {
+  opacity: 0.45;
+  filter: grayscale(0.6);
+  pointer-events: none;
+}
+
+.card-soon {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(102, 125, 146, 0.12);
+  color: var(--muted);
+  vertical-align: middle;
+  margin-left: 6px;
+  letter-spacing: 0.03em;
+}
+
 /* Card items mini-list */
 .card-items {
   list-style: none;
